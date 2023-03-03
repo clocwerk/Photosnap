@@ -1,0 +1,16 @@
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+
+  .logo {
+    width: 170px;
+    height: 16px;
+  }
+}
+.header__container {
+  padding: 28px 24px;
+}
+.header-button {
+  background-color: transparent;
+  border: 0;
+}
