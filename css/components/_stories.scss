@@ -40,58 +40,99 @@
     letter-spacing: 2px;
   }
 }
-@media screen and (min-width: 768px) {
-  .stories-list {
-    padding: 361px 41px 40px 42px;
-    height: 500px;
-    &__title {
-      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    }
+
+.stories-list {
+  padding: 361px 41px 40px 42px;
+  height: 500px;
+  &__title {
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   }
 }
+
 @media screen and (min-width: 1200px) {
   .stories-flex {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
-.first {
-  background-image: linear-gradient(
-      180deg,
-      rgba(0, 0, 0, 0.0001) 0.27%,
-      rgba(0, 0, 0, 0.661222) 100%
-    ),
-    url('/assets/stories/mobile/mountains.jpg');
-  background-size: cover;
-}
-.second {
-  background-image: linear-gradient(
-      180deg,
-      rgba(0, 0, 0, 0.0001) 0.27%,
-      rgba(0, 0, 0, 0.661222) 100%
-    ),
-    url('/assets/stories/mobile/cityscapes.jpg');
-  background-size: cover;
-}
-.third {
-  background-image: linear-gradient(
-      180deg,
-      rgba(0, 0, 0, 0.0001) 0.27%,
-      rgba(0, 0, 0, 0.661222) 100%
-    ),
-    url('/assets/stories/mobile/18-days-voyage.jpg');
-  background-size: cover;
-}
-.fourth {
-  background-image: linear-gradient(
-      180deg,
-      rgba(0, 0, 0, 0.0001) 0.27%,
-      rgba(0, 0, 0, 0.661222) 100%
-    ),
-    url('/assets/stories/mobile/architecturals.jpg');
-  background-size: cover;
-}
+
 .stories-arrow {
   display: flex;
   justify-content: space-between;
+}
+@media screen and (max-width: 767px) {
+  .first {
+    background-image: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.0001) 0.27%,
+        rgba(0, 0, 0, 0.661222) 100%
+      ),
+      url('/assets/stories/mobile/mountains.jpg');
+    background-size: cover;
+  }
+  .second {
+    background-image: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.0001) 0.27%,
+        rgba(0, 0, 0, 0.661222) 100%
+      ),
+      url('/assets/stories/mobile/cityscapes.jpg');
+    background-size: cover;
+  }
+  .third {
+    background-image: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.0001) 0.27%,
+        rgba(0, 0, 0, 0.661222) 100%
+      ),
+      url('/assets/stories/mobile/18-days-voyage.jpg');
+    background-size: cover;
+  }
+  .fourth {
+    background-image: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.0001) 0.27%,
+        rgba(0, 0, 0, 0.661222) 100%
+      ),
+      url('/assets/stories/mobile/architecturals.jpg');
+    background-size: cover;
+  }
+}
+@media screen and (min-width: 768px) {
+  .first {
+    background-image: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.0001) 0.27%,
+        rgba(0, 0, 0, 0.661222) 100%
+      ),
+      url('/assets/stories/desktop/mountains.jpg');
+    background-size: cover;
+  }
+  .second {
+    background-image: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.0001) 0.27%,
+        rgba(0, 0, 0, 0.661222) 100%
+      ),
+      url('/assets/stories/desktop/cityscapes.jpg');
+    background-size: cover;
+  }
+  .third {
+    background-image: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.0001) 0.27%,
+        rgba(0, 0, 0, 0.661222) 100%
+      ),
+      url('/assets/stories/desktop/18-days-voyage.jpg');
+    background-size: cover;
+  }
+  .fourth {
+    background-image: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.0001) 0.27%,
+        rgba(0, 0, 0, 0.661222) 100%
+      ),
+      url('/assets/stories/desktop/architecturals.jpg');
+    background-size: cover;
+  }
 }
